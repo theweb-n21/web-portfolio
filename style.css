@@ -1,0 +1,113 @@
+/* =================================================================================
+Main css
+===================================================================================*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+image{
+    width: 100%;
+}
+/*=================================================================================== 
+Top section css
+=====================================================================================*/
+
+.top-area{
+    background: url(img/top-banner.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+.top__text h1{
+    text-align: center;
+    font-size: 30px;
+}
+.top__text{
+    width: 39%;
+    height: 600px;
+    /* text-align: center; */
+    float: left;
+    margin: 5% 5% 5% 6%;
+}
+.top__text h4{
+    font-size: 25px;
+    margin-left: 110px;
+}
+span{
+    color:#FFC31F ;
+}
+.top__text p{
+    text-align: justify;
+    width: 300px;
+    margin: 0 auto;
+}
+.top__text a{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,#FFC31F,#F9775F);
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 20px 0 0 110px;
+}
+.top__text a:hover{
+    background-image: linear-gradient(45deg,#1CD0D8,#379DF4);
+    color: #FFC593;
+}
+.top__img{
+    width: 40%;
+    height: 600px;
+    float: left;
+    margin: 5%;
+}
+.top__img img{
+    width: 100%;
+    
+}
+/*==================================================================================== 
+dream Section css
+=====================================================================================*/
+.dream__area{
+    background: url(img/dream-bg.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream__text{
+    width: 40%;
+    height: 600px;
+    float: left;
+    margin: 0 5%;
+    text-align: justify;
+
+}
+.dream__text a{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,#FF3E8B,#FF418C);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px 0 0 0;
+    display: inline-block;
+
+}
+.dream__text a:hover{
+    background-image: linear-gradient(45deg,#5963DE,#7E2ED7);
+    color: #FFC593;
+    
+}
+.dream__text p{
+    width: 300px;
+    
+   
+}
+.dream__img{ 
+width: 40%;
+height: 600px;
+float: left;
+margin: 0 5%;
+}
+.dream__img img{
+    width: 100%;
+      
+}
+
