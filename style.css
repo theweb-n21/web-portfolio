@@ -1,79 +1,88 @@
 /* =================================================================================
-Main css
+   Main css
 ===================================================================================*/
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-image{
-    width: 100%;
-}
+
 /*=================================================================================== 
-Top section css
+   Top section css
 =====================================================================================*/
 
-.top-area{
+.top-area {
     background: url(img/top-banner.png);
     height: 600px;
     background-repeat: no-repeat;
     /* background-size: cover; */
 }
-.top__text h1{
+
+.top__text h1 {
     text-align: center;
     font-size: 30px;
 }
-.top__text{
+
+.top__text {
     width: 39%;
     height: 600px;
     /* text-align: center; */
     float: left;
     margin: 5% 5% 5% 6%;
 }
-.top__text h4{
+
+.top__text h4 {
     font-size: 25px;
     margin-left: 110px;
 }
-span{
-    color:#FFC31F ;
+
+.orange-highlight {
+    color: #FFC31F;
 }
-.top__text p{
+
+.top__text p {
     text-align: justify;
     width: 300px;
     margin: 0 auto;
 }
-.top__text a{
+
+.top__text a {
     text-decoration: none;
-    background-image: linear-gradient(45deg,#FFC31F,#F9775F);
+    background-image: linear-gradient(45deg, #FFC31F, #F9775F);
     padding: 10px 20px;
     border-radius: 5px;
     display: inline-block;
     margin: 20px 0 0 110px;
 }
-.top__text a:hover{
-    background-image: linear-gradient(45deg,#1CD0D8,#379DF4);
+
+.top__text a:hover {
+    background-image: linear-gradient(45deg, #1CD0D8, #379DF4);
     color: #FFC593;
 }
-.top__img{
+
+.top__img {
     width: 40%;
     height: 600px;
     float: left;
     margin: 5%;
 }
-.top__img img{
+
+.top__img img {
     width: 100%;
-    
+
 }
+
 /*==================================================================================== 
-dream Section css
+     dream Section css
 =====================================================================================*/
-.dream__area{
+.dream__area {
     background: url(img/dream-bg.png);
     height: 600px;
     background-repeat: no-repeat;
     background-position: right;
 }
-.dream__text{
+
+.dream__text {
     width: 40%;
     height: 600px;
     float: left;
@@ -81,33 +90,85 @@ dream Section css
     text-align: justify;
 
 }
-.dream__text a{
+
+.dream__text a {
     text-decoration: none;
-    background-image: linear-gradient(45deg,#FF3E8B,#FF418C);
+    background-image: linear-gradient(45deg, #FF3E8B, #FF418C);
     padding: 10px 20px;
     border-radius: 5px;
     margin: 20px 0 0 0;
     display: inline-block;
 
 }
-.dream__text a:hover{
-    background-image: linear-gradient(45deg,#5963DE,#7E2ED7);
+
+.dream__text a:hover {
+    background-image: linear-gradient(45deg, #5963DE, #7E2ED7);
     color: #FFC593;
-    
-}
-.dream__text p{
-    width: 300px;
-    
-   
-}
-.dream__img{ 
-width: 40%;
-height: 600px;
-float: left;
-margin: 0 5%;
-}
-.dream__img img{
-    width: 100%;
-      
+
 }
 
+.dream__text p {
+    width: 300px;
+
+
+}
+
+.dream__img {
+    width: 40%;
+    height: 600px;
+    float: left;
+    margin: 0 5%;
+}
+
+.dream__img img {
+    width: 100%;
+}
+
+/*==================================================================================== 
+  dream Section css
+=====================================================================================*/
+.experience__area{
+    width: 100%;
+    height: 550px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.experience__card-1,
+.experience__card-2 {
+    width: 350px;
+    height:250px;
+    margin: 0 0 0 10%;
+    text-align: justify;
+    padding: 10px;
+    display: inline-block;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+}
+.experience__card-1{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+.experience__card-2{
+    border-left: 7px solid;
+    border-image:  linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+/*==================================================================================== 
+  footer Section css
+=====================================================================================*/
+footer {
+    text-align: center;
+
+}
+footer p{
+    color: #898989;
+}
+footer p img{
+    width: 15px;
+    margin-right: 1px;
+}
